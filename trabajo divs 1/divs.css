@@ -1,0 +1,139 @@
+
+body{
+    background-color: cyan;
+}
+
+
+
+
+
+
+div.fondo{
+    width: 500px; height: 300px; background-color: #c0c0c0; top: auto; margin: auto; position: relative;
+   
+}
+
+div.rojo{
+    width: 200px; height: 50px; background-color: red; top: 10px; left: 10px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+div.amarillo{
+    width: 200px; height: 100px; background-color: yellow; top: 10px; right: 10px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.verde{
+    width: 200px; height: 100px; background-color: green; left: 10px; bottom: 10px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+div.azul{
+    width: 200px; height: 50px; background-color: blue; bottom: 10px; right: 10px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+div.fondo2{
+    width: 500px; height: 300px; background-color: #c0c0c0; margin: auto; position: relative;
+   
+}
+
+div.rojo2{
+    width: 240px; height: 110px; background-color: red; bottom: 20px; left: 150px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif; z-index: 2;
+
+
+}
+
+div.amarillo2{
+    width: 170px; height: 150px; background-color: yellow; top: 50px; right: 50px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.verde2{
+    width: 150px; height: 140px; background-color: green; left: 50px; bottom: 60px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+div.azul2{
+    width: 250px; height: 140px; background-color: blue; top:10px; left: 90px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+div.fondo3{
+    width: 500px; height: 300px; background-color: #c0c0c0; margin: auto; position: relative;
+   
+}
+
+
+div.rojo3{
+    width: 90px; height: 200px; background-color: red;  top:16%; left: 250px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif; z-index: 2;
+
+
+}
+
+div.amarillo3{
+    width: 90px; height: 200px; background-color: yellow; top:16%; left: 160px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.verde3{
+    width: 90px; height: 200px; background-color: green; top:16%; left: 70px;  position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+div.azul3{
+    width: 90px; height: 200px; background-color: blue; top:16%; left: 340px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.fondo4{
+    width: 500px; height: 300px; background-color: #c0c0c0; margin: auto; position: relative;
+   
+}
+
+
+div.rojo4{
+    width: 360px; height: 80px; background-color: red;  top:16%; left: 70px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif; 
+
+
+}
+
+div.amarillo4{
+    width: 360px; height: 80px; background-color: yellow; bottom:16%; left: 70px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.verde4{
+    width: 95px; height: 240px; background-color: green; top:30px; right: 115px;  position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif; z-index: 1;
+
+
+}
+
+div.azul4{
+    width: 95px; height: 240px; background-color: blue; top: 30px; left: 115px; position: absolute; font-size: 50px; font-family: Arial, Helvetica, sans-serif; z-index: 1;
+
+}
