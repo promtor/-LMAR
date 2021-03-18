@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="2.js">
+</script>
+</head>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<button type="button" onclick="escribir()"> escribir en parrafo </button>
+
+
+</body>
+</html>
 
