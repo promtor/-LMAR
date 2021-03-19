@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Create a variable, assign a value to it, and display it:</p>
+
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+
+<script>
+var carName = "Volvo";
+var misco = "totus";
+var conductor = "manolo";
+
+document.getElementById("p1").innerHTML = carName;
+document.getElementById("p2").innerHTML = misco;
+document.getElementById("p3").innerHTML = conductor;
+
+</script>
+
+</body>
+</html>
