@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+        </script>
+    </head>
+<body>
+
+<h1>three groups of buttons</h1>
+
+<p id="demo1">PARRAFO MAGICO</p>
+
+
+
+<button type="button" onclick="document.getElementById('demo1').style.fontFamily='arial'">arial</button>
+<button type="button" onclick="document.getElementById('demo1').style.fontFamily='courier'">courier</button>
+<button type="button" onclick="document.getElementById('demo1').style.fontFamily='verdana'">verdana</button>
+<br><br><br><br>
+
+<img id="img1" style="height: 300px; width: 300px;" src="mark1.jpg" alt="mark">
+<br>
+<button type="button" onclick="document.getElementById('img1').src='mark1.jpg'">mark borracho</button>
+<button type="button" onclick="document.getElementById('img1').src='mark2.jpg'">mark normal</button>
+
+<br><br><br>
+
+<div id="div1">
+holis
+</div>
+<button type="button" onclick="document.getElementById('div1').innerHTML='خصم. يتم ذلك من خلال تهديد المربع الذي يحتله الملك بإحدى قطعه الخاصة دون أن يتمكن'"> arabe </button>
+<button type="button" onclick="document.getElementById('div1').innerHTML='Chess is a game between two opponents in which each one has at the beginning 16 movable pieces that are placed on a board, 1 divided into 64 squares or squares'"> aleman </button>
+<button type="button" onclick="document.getElementById('div1').innerHTML='Schach ist ein Spiel zwischen zwei Gegnern, bei dem jeder zu Beginn 16 bewegliche Figuren auf einem Brett hat, von denen 1 in 64 Felder oder Felder unterteilt ist'"> ingles</button>
+</body>
+</html>
