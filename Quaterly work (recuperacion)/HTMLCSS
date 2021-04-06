@@ -1,0 +1,175 @@
+<html lang=es>
+
+<head>
+    <title>HTML Y CSS</title>
+
+    <style type="text/css">
+        h1 {
+            background-color: rgb(209, 69, 69);
+            font-size: 100px;
+            text-align: center;
+        }
+        
+        pre {
+            margin: 1em 0;
+            color: rgb(128, 32, 91);
+            background: rgb(128, 164, 219);
+            padding: 0.5em 1.5em
+        }
+        
+        pre strong {
+            color: rgb(44, 155, 175)
+        }
+        
+        body {
+            background-color: rgb(75, 10, 80);
+        }
+    </style>
+
+
+    <body>
+
+
+        <h1 style="color:rgb(153, 146, 175)">Tutorial de HTML y CSS</h1>
+
+        <div>
+            <ul>
+                <li id=p1><a href="#HTML">1. HTML</a>
+
+                    <li id=p2><a href="#colors">2. Como añadir color</a>
+
+                        <li id=p3><a href="#fonts">3. Como añadir tipo de letra</a>
+
+                            <li id=p4><a href="#navbar">4. Barra de navegación</a>
+            </ul>
+        </div>
+
+        <p>Este breve tutorial está pensado para aquellas personas que quieren comenzar a utilizar CSS y nunca han escrito una hoja de estilos CSS.
+
+            <div id=HTML>
+                <h2>Paso 1: Escribir el código HTML</h2>
+
+                <p>El paso 1 consiste en abrir tu editor de texto (Notepad, TextEdit, HTML Kit o el que desees), comenzar con una ventana vacía y escribir lo siguiente:
+
+                    <pre>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Mi primera página con estilo&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;!-- Menú de navegación del sitio --&gt;
+&lt;ul class=&quot;navbar&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;indice.html&quot;&gt;Página principal&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;meditaciones.html&quot;&gt;Meditaciones&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;ciudad.html&quot;&gt;Mi ciudad&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;enlaces.html&quot;&gt;Enlaces&lt;/a&gt;
+&lt;/ul&gt;
+
+&lt;!-- Contenido principal --&gt;
+&lt;h1&gt;Mi primera página con estilo&lt;/h1&gt;
+
+&lt;p&gt;¡Bienvenido a mi primera página con estilo!
+
+&lt;p&gt;No tiene imágenes, pero tiene estilo.
+También tiene enlaces, aunque no te lleven a
+ningún sitio…
+
+&lt;p&gt;Debería haber más cosas aquí, pero todavía no sé
+qué poner.
+
+&lt;!-- Firma y fecha de la página, ¡sólo por cortesía! --&gt;
+&lt;address&gt;Creada el 5 de abril de 2004&lt;br&gt;
+  por mí mismo.&lt;/address&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+            </div>
+            </div>
+
+            <div id=colors>
+                <h2>Paso 2: Añadir algunos colores</h2>
+
+                <p>Necesitamos añadir un elemento &lt;style&gt; en el archivo HTML. La hoja de estilo estará en el interior de ese elemento. Volvamos entonces a la ventana del editor y añadamos las siguientes cinco líneas en la parte de la cabecera del archivo:
+
+                    <pre>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Mi primera página con estilo&lt;/title&gt;
+  <strong
+    >&lt;style type=&quot;text/css&quot;&gt;
+  body {
+    color: purple;
+    background-color: #d8da3d }
+  &lt;/style&gt;</strong>
+&lt;/head&gt;
+
+&lt;body&gt;
+</pre>
+                    <div id=fonts>
+                        <h2>Paso 3: Añadir tipo de letra</h2>
+
+                        <p>Otra cosa que es muy fácil de hacer es añadir diferentes tipos de letra para los diversos elementos de la página. Veamos el texto con el tipo de letra “Georgia”, excepto la cabecera h1, que irá con “Helvetica”.
+
+                            <p>Añade en el editor de texto las siguientes líneas:
+
+                                <pre>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Mi primera página con estilo&lt;/title&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+  body {
+    <strong
+    >font-family: Georgia, &quot;Times New Roman&quot;,
+          Times, serif;</strong>
+    color: purple;
+    background-color: #d8da3d }
+  <strong>h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }</strong>
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+[etc.]
+</pre>
+                    </div>
+            </div>
+
+            <div id=navbar>
+                <h2>Paso 4: Añadir una barra de navegación</h2>
+
+                <p>En la ventana del editor, añade las siguientes líneas al archivo HTML:
+
+                    <pre>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Mi primera página con estilo&lt;/title&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+  body {
+    <strong>padding-left: 11em;</strong>
+    font-family: Georgia, &quot;Times New Roman&quot;,
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+  <strong>ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }</strong>
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+[etc.]
+</pre>
+    </body>
