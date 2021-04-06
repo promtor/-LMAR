@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <title>Web4U</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        img {
+            margin-left: 12%;
+            float: left;
+            border: 5px solid rgb(27, 25, 153);
+            padding: 20px;
+        }
+        
+        #second {
+            width: 300px;
+            height: 300px;
+        }
+        
+        body {
+            background-color: rgb(255, 87, 219);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1><i><ins>TUTORIAL FOR HTML, CSS AND SVG</ins></i></h1>
+    <br>
+    <br>
+    <br>
+    
+    </a>
+    <a href="SVG.html"> <img style="border: 3px;" id="second" src="https://image.flaticon.com/icons/png/512/29/29495.png">
+
+    <a href="HTMLCSS.html"> <img style="border: 3px;" src="https://web.tecnodus.com/wp-content/uploads/2015/05/html_css.png"> </a>
+</body>
