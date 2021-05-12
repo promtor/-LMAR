@@ -1,0 +1,42 @@
+//1
+
+document.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+//2
+
+titulos = "";
+n = document.getElementsByTagName("title").length;
+for(i = 0; i < n; i++)
+titulos += document.getElementsByTagName("title")[i].childNodes[0].nodeValue + " <br> ";
+
+//3
+
+document.getElementsByTagName("title")[3].attributes.lenght;
+
+//4
+
+atributos= "";
+n = document.getElementsByTagName("title")[3].attributes;
+for(i = 0; i < n; i++)
+atributos += document.getElementsByTagName("title")[3].attributes[i].nodevalue;
+
+//5 
+
+document.getElementsByTagName("book")[2].getElementsByTagName("author").length;
+
+//6
+
+autores = "";
+n = document.getElementsByTagName("book")[2].getElementsByTagName("author").lenght;
+for(i = 0; i < n; i++)
+autores += document.getElementsByTagName("book")[2].getElementsByTagName("author").childNodes[0].nodeValue;
+
+//7
+
+tabla = "";
+l = document.getElementsByTagName("book").length;
+for (i = 0; i < l; i++)
+    tabla += "<tr>" + "<td>" + document.getElementsByTagName("title")[i].childNodes[0].nodeValue + "</td>" +
+    "<td>" + document.getElementsByTagName("author")[i].childNodes[0].nodeValue + "</td>" +
+    "<td>" + document.getElementsByTagName("price")[i].childNodes[0].nodeValue + "</td>" +
+    "<td>" + document.getElementsByTagName("year")[i].childNodes[0].nodeValue + "</td>" + "</tr>";
