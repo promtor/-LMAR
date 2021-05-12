@@ -1,0 +1,22 @@
+//1
+
+titulos = "";
+n = document.getElementsByTagName("TITLE").length;
+for(i = 0; i < n; i++)
+  titulos += document.getElementsByTagName("TITLE")[i].childNodes[0].nodeValue + " <br> "
+
+
+//2
+
+precios = "";
+n = document.getElementsByTagName("PRICE").length;
+for(i = 0; i < n; i++)
+  titulos += document.getElementsByTagName("PRICE")[i].childNodes[0].nodeValue + " <br> "
+
+
+//3
+precios = "";
+n = document.getElementsByTagName("PRICE").length;
+for(i = 0; i < n; i++)
+titulos += document.getElementsByTagName("PRICE")[i].childNodes[0].nodeValue + " <br> "
+
