@@ -1,0 +1,47 @@
+<!--A simple address book
+Someone wishes to design an address book in XML. For each entry of the address book, one wants to store the following information:
+        - The person name
+        - Home address
+        - Telephone number
+        - E-mail address
+        - Age 
+        - Marital Status (C,S,V,D) -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+<!ELEMENT address (contact*)>
+<!ELEMENT contact (name,home,phone,email,age,status)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+]>
+
+
+
+<!--
+To do list:
+        - Write a DTD for the address book.
+        - Write a valid XML file with at least two entries. Put all in a file and save as ex1.xml.-->
+
+
+<address>
+<contact>
+<name>Pablo</name>
+<home>casa</home>
+<phone>762567075</phone>
+<email>address</email>
+<age>19</age>
+<status>A</status>
+</contact>
+<contact>
+<name>Valentin</name>
+<home>casa</home>
+<phone>623544883</phone>
+<email>address</email>
+<age>34</age>
+<status>S</status>
+</contact>
+</address>
