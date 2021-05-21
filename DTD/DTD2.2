@@ -1,0 +1,64 @@
+<!--An advanced address book
+    Make a professional address book improving the address book created in the previous exercise. For each entry of the address book we want to store the following informations:
+        - The person first name and last name.
+        - Home address (street, no, zip, country)
+        - Telephone number 
+        - E-mail addresses (it can be more than one)
+        - Company. The following informations must be stored:
+                . Company name
+                . The list of company web sites. For each web site you must store the following:
+                        - The name of the site
+                        - URL
+    Requirements:
+        - Write a new version of the DTD and save as Ex2.dtd.
+        - Write a valid XML file with at least two entries. Write the corresponding DOCTYPE declaration in the XML file. 
+          Save as ex2.xml and validate the file with XML Copy Editor.-->
+
+'''<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address SYSTEM "Ej2DTD.dtd">
+
+<address>
+<contact>
+<name>
+<firstname>Pablo</firstname>
+<lastname>Romero</lastname>
+</name>
+<home>
+<street>AV italia</street>
+<num>42474385584</num>
+<zip>45456</zip>
+<country>spain</country>
+</home>
+<phone>232345466</phone>
+<email>youpsico4546</email>
+<company>
+<name1>manolofernandez</name1>
+<web>
+<name2>dostore</name2>
+<url>wfdgdg</url>
+</web>
+</company>
+</contact>
+
+<contact>
+<name>
+<firstname>antonia</firstname>
+<lastname>pepa</lastname>
+</name>
+<home>
+<street>Av andalucia</street>
+<num>87698799</num>
+<zip>678998</zip>
+<country>spain</country>
+</home>
+<phone>43667</phone>
+<email>juansandalias6776</email>
+<company>
+<name1>carañas</name1>
+<web>
+<name2>sacamas</name2>
+<url>dominia</url>
+</web>
+</company>
+</contact>
+</address>
