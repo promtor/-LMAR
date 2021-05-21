@@ -1,0 +1,41 @@
+<!--Design and implementation 
+        Requirements:
+            - Write a DTD for this document model. Save the file as ex3.dtd.
+            - Validate the file with XML Copy Editor.-->
+            
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE cd_review_list 
+[
+<!ELEMENT cd_review_list (cd_review*)>
+<!ELEMENT cd_review (author, review, cd)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT review (#PCDATA)>
+<!ELEMENT cd (author1, title)>
+<!ELEMENT author1 (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+]>
+
+<cd_review_list>
+ <cd_review>
+  <author>Pierre l´andeur</author>
+  <review>
+   Swarm intelligence and bio-inspired algorithms form a hot topic in the developments of new algorithms inspired by nature. These nature-inspired metaheuristic algorithms can be based on swarm intelligence, biological systems, physical and chemical systems. Therefore, these algorithms can be called swarm-intelligence-based, bio-inspired, physics-based and chemistry-based, depending on the sources of inspiration
+  </review>
+  <cd>
+   <author1>Frank Perez</author1>
+   <title>Nature and sharks</title>
+  </cd>
+ </cd_review>
+ <cd_review>
+  <author>Alex</author>
+  <review>
+   Though not all of them are efficient, a few algorithms have proved to be very efficient and thus have become popular tools for solving real-world problems. Some algorithms are insufficiently studied. The purpose of this review is to present a relatively comprehensive list of all the algorithms in the literature, so as to inspire further research.
+  </review>
+  <cd>
+   <author1>hershel grimmes</author1>
+   <title>god with birds</title>
+  </cd>
+ </cd_review>
+</cd_review_list>
